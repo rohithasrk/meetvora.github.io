@@ -1,0 +1,84 @@
+<html> 
+<head> 
+<title>Meet Vora</title> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<script src="typed.js"></script>
+<script>
+  $(function(){
+      $("#console1").typed({
+        strings: [" grep \"root\" /etc/group<br>"],
+        typeSpeed: -1	
+      });
+      setTimeout(function(){$(".s1").toggle();}, 1300);
+      
+      $("#console2").typed({
+        strings: ["^1350 uname --verbose<br>"],
+        typeSpeed: 0	
+      });
+      setTimeout(function(){$(".s2").toggle();}, 2200);
+      
+      $("#console3").typed({
+        strings: ["^2300 cd /home/meet/ && ls<br>"],
+        typeSpeed: 0	
+      });
+      setTimeout(function(){$(".s3").toggle();}, 3300);
+
+      $("#console4").typed({
+        strings: ["^3350 cat intro.txt"],
+        typeSpeed: 0	
+      });
+      setTimeout(function(){$(".s4").toggle();}, 4250);
+  }	);
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head> 
+<body> 
+
+<div id="console">
+	<span id="a">awesomeGuest@tecko</span>:<span id="b">~</span><span id="c">$</span><div id="console1"></div>
+	<span class="s1" id="f" style="display: none;">meet vora<br><br><span id="a">awesomeGuest@tecko</span>:<span id="b">~</span><span id="c">$</span></span><div id="console2"></div>
+
+	<span class="s2" style="display: none;">pre-final year undergrad, computer science & engineering, indian insitute of technology roorkee<br><br><span id="a">awesomeGuest@tecko</span>:<span id="b">~</span><span id="c">$</span> </span><div id="console3"></div>
+
+	<span class="s3" style="display: none;" id="b">intro.txt <br><br><span id="a">awesomeGuest@tecko</span>:<span id="b">~</span><span id="c">$</span> </span><div id="console3"></div>
+	<div id="console4"></div>
+	<span class="s4" style="display: none;"><p>
+		<p style="text-align: center;">=================<br>
+	<span id ="e">ABOUT ROOT</span>
+        <br>=================<br></p>
+        Meet, a Mumbaikar, is currently based in Roorkee as he pursues his Bachelor's degree in Computer Science & Engineering at <a href="http://www.iitr.ac.in">Indian Institute of Technology Roorkee</a>. His regular activities involve a bit of reading, coding and sleeping.<br>
+        Meet is a Tech & Finance enthusiast, a gadget geek and an ardent Spidey fan.<br>His areas of interests include Cryptography, Deep learning, Web Development & Theoretical Computer Science.<br><br>
+        inspirations=['his Dad', 'Jeff Bezos', 'Warren Buffett']<br><br>
+        college_groups=['<a href="http://img.channeli.in" target="_blank">Information Management Group</a>', '<a href="http://www.iitr.ac.in/nss" target="_blank">National Service Scheme</a>', '<a href="http://iitrdsg.wordpress.com" target="_blank">Data Science Group</a>', '<a href="http://www.geekgazette.org" target="_blank">Geek Gazette</a>']<br><br>
+     	
+     	<p style="text-align: center;">
+     	<br>=================<br>
+        <span id="e">PROJECTS</span>
+        <br>=================<br></p>
+        <b>Design study of S-Boxes and cryptanalysis of Q-groups:</b>	Studied properties of substitution boxes and developed a toolkit to analyse cryptographic properties & structure of boolean functions. Extended the study & code to analyse quasi-qroups & 4-round 4x4 q-s-Boxes.<br><span id="link">[<a href="http://github.com/meetvora/sbox-analyser" target="_blank">CODE</a>] [<a href="https://drive.google.com/open?id=0B_ZQ6_ZpLsHTMUsxUjBtT3BhQ2M" target="_blank">SUMMARY</a>]</span><br><br>
+
+        <b>Media Management Service:</b>	Developed a back-end service for Django to manage & handle media files and requests. Besides media storage, file compression and authentication, the service tracks user actions on files and provides options for file recovery and transformation. Further, rule based authentication was implemented to verify file parameters & create suitable output file.<br><br>
+
+        <b>Automate email reply*:</b>	Based on Google Smart Reply, the project aims to generate appropriate replies to ham mails. Using a SVM classifier, the mails are classified as ham/spam. Further, RNN & LSTM based language modelling is employed to generate the responses.<br><br>
+
+        <b>Custom Bootloader & Kernel:</b>	Developed a custom bootloader and kernel for x86 architecture from scratch. The kernel comprised of a basic display driver.<br><span id="link">[<a href="https://bitbucket.org/meetvora/scratch-os" target="_blank">CODE</a>]</span><br><br>
+
+        <b>Distributed DNS:</b> Implemented a distributed Domain Namespace Server for iterative address resolution. A hierarchical structure was maintained with client parsing through the response obtained at each node. The model employed RPC for node communication.<br><span id="link">[<a href="https://github.com/meetvora/dis-dns" target="_blank">CODE</a>]</span><br><br>
+
+        <p style="text-align: center;"><br>=================<br>
+        <span id="e">RESUME</span>
+        <br>=================<br>
+        <a href="https://drive.google.com/open?id=0B_ZQ6_ZpLsHTMUZ3eDFCcEE0bjg" target="_blank">link</a></p>
+ 
+        <p style="text-align: center;">
+        <br>=================<br>
+        <span id="e">CONTACT</span>
+        <br>=================<br>
+        [<a href="https://github.com/meetvora" target="_blank">github</a>] [<a href="https://www.facebook.com/meetvoracorp" target="_blank">facebook</a>] [<a href="http://geekspecs.wordpress.com/" target="_blank">wordpress</a>] [<a href="http://students.iitr.ac.in/14115138/" target="_blank">iitr.ac.in</a>]
+        </p>
+         </p></span>
+</div>
+
+</body> 
+</html> 
