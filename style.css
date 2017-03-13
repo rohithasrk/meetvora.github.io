@@ -3,7 +3,7 @@ body {
 }
 #console{
 	font-family: 'Source Code Pro', monospace;
-	font-weight: 100;
+	font-weight: lighter;
 	color: #fff;
 	width: 950px;
 	margin-left:auto;
@@ -14,7 +14,7 @@ body {
 #console1, #console2, #console3, #console4{
 	font-family: 'Source Code Pro', monospace;
 	color: #fff;
-	font-weight: 100;
+	font-weight: lighter;
 	width: 950px;
 	margin-left:auto;
 	margin-right:auto;
