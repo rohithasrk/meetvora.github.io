@@ -1,22 +1,24 @@
 body {
-	background-color: #000;
+	background-color: #0d1926;
 }
 #console{
-	font-family: courier, monospace;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 100;
 	color: #fff;
 	width: 950px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:150px;
-	font-size:17px;
+	font-size:14.5px;
 }
 #console1, #console2, #console3, #console4{
-	font-family: courier, monospace;
+	font-family: 'Source Code Pro', monospace;
 	color: #fff;
+	font-weight: 100;
 	width: 950px;
 	margin-left:auto;
 	margin-right:auto;
-	font-size:17px;
+	font-size:14.5px;
 	display: inline;	
 }
 a {
@@ -27,13 +29,13 @@ a:hover{
 	text-shadow: 0.3px 0.3px #0bc;
 }
 #a {
-	color: #0f0;
-}
-#c {
 	color: #0bc;
 }
+#c {
+	color: #1e8eff;
+}
 #b {
-	color: #ff0096;
+	color: #83ff08;
 }
 #d{
 	color: #77f;
@@ -41,7 +43,7 @@ a:hover{
 #e{
 	font-weight: bold;
 	color: #aaa;
-	font-size: 120%;
+	/*font-size: 120%;*/
 }
 #f{
 	color: #f91;
